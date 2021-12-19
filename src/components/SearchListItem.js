@@ -9,6 +9,7 @@ function formatDate(date) {
   const now = Date.now();
   const diff = (now - d.getTime()) / 1000;
 
+  
   if (diff < 60 * 1) {
     return '방금 전';
   }
