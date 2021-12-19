@@ -7,7 +7,6 @@ function SearchList({logs, onScrolledToBottom, ListHeaderComponent}) {
     if (!onScrolledToBottom) {
       return;
     }
-
     const {contentSize, layoutMeasurement, contentOffset} = e.nativeEvent;
     const distanceFromBottom =
       contentSize.height - layoutMeasurement.height - contentOffset.y;
