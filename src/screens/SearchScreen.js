@@ -6,6 +6,7 @@ import SearchList from '../components/SearchList'
 import LogContext from '../components/contexts/LogContext';
 
 function SearchScreen({navigation}) {
+  
   const {keyword} = useContext(SearchContext);
   const {logs} = useContext(LogContext);
 
