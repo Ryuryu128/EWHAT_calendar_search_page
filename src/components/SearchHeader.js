@@ -20,6 +20,7 @@ function SearchHeader() {
             onChangeText={onChangeText}    
             autoFocus 
         />
+                    
         <Pressable
             style={({pressed}) => [styles.button, pressed && {opacity: 0.5}]}
             onPress={()=> onChangeText('')}>
